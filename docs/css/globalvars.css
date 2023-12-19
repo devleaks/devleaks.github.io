@@ -1,0 +1,17 @@
+:root {
+    --main-bg-color: var(--main-bg-color);
+    --alt-fg-color: #292929;
+    --section-gray: #f9f9f9;
+    --border-bottom-color: rgba(0, 0, 0, 0.1);
+    --side-image: url(images/slide-bg-1.jpg);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-bg-color: #111;
+        --alt-fg-color: #ddd;
+        --section-gray: #090909;
+        --border-bottom-color: rgba(255, 255, 255, 0.1);
+        --side-image: url(images/slide-bg-1-dark.jpg);
+    }
+}

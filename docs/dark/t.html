@@ -1,0 +1,43 @@
+<style type="text/css">
+.theme-section {
+    order: 1;
+    width: 68px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 1px #303030;
+    background: #000;
+}  
+
+.theme-section .circle.dark {
+    margin-left: 39px;
+}
+
+.theme-section .circle {
+    position: absolute;
+    z-index: 10;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+        margin-left: 2px;
+    border-radius: 13px;
+    background-color: #303030;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+</style>
+
+<li class="theme-section">
+    <div class="circle dark"></div>
+    <a data-theme="light">
+        <span class="light"><i class="la la-sun"></i></span>
+        <span class="dark active"><i class="la la-moon"></i></span>
+    </a>
+</li>

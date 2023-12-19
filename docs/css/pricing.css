@@ -1,0 +1,33 @@
+#pricing-section .col {
+  border-radius: 8px;
+  border: 1px solid rgba(45, 203, 115, 1); /*#2dcb73*/
+  margin: 10px;
+  width: 30%;
+  padding: 0;
+}
+
+#pricing-section .row {
+  margin: auto;
+}
+
+#pricing-section .name {
+  text-align: center;
+  font-size: 120%;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+#pricing-section .circle {
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  font-size: 300%;
+  background-color: rgba(45, 203, 115, 0.8);
+  color: white;
+  padding: 20px;
+}
+
+#pricing-section .price {
+  font-size: 250%;
+  text-align: center;
+  padding: 20px;
+}
